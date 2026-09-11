@@ -19,7 +19,7 @@ const whatsappLink = (service?: string) => {
   const message = service
     ? `Olá, Antônio! Gostaria de solicitar um orçamento para: ${service}.`
     : 'Olá, Antônio! Gostaria de conhecer melhor seus serviços de infraestrutura de redes.';
-  return `https://wa.me/?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/558681207527?text=${encodeURIComponent(message)}`;
 };
 
 const services = [
